@@ -3,32 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Siva Kumar | Portfolio</title>
+<title>Bodicherla Venkata Sai Siva Kumar | Portfolio</title>
 <style>
-*{font-family:Arial,sans-serif;box-sizing:border-box}
-body{background:#d9e5f5;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:15px;margin:0}
-.card{background:#f7f9ff;border-radius:28px;display:flex;max-width:1050px;width:100%;padding:40px;gap:20px;flex-wrap:wrap}
-.left{flex:1.2} .right{flex:1;text-align:center}
-h1{font-size:36px;color:#0a1931;line-height:1.1}
-.right img{width:100%;max-width:380px;border-radius:80px}
-.btn1{background:#1e73be;color:white;padding:12px 22px;border-radius:8px;text-decoration:none;display:inline-block}
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui, sans-serif}
+body{background:#dbeafe;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px}
+.card{background:white;width:100%;max-width:1000px;border-radius:32px;padding:40px;display:flex;gap:30px;align-items:center;box-shadow:0 20px 40px rgba(0,0,0,0.1)}
+.left{flex:1}
+.badge{background:#dbeafe;color:#1e3a8a;padding:8px 20px;border-radius:20px;display:inline-block;font-weight:600;margin-bottom:20px}
+h1{font-size:48px;line-height:1.1;color:#0f172a;margin-bottom:15px;text-transform:uppercase;font-weight:900}
+.sub{font-size:20px;font-weight:700;margin-bottom:15px}
+.desc{color:#475569;font-size:18px;line-height:1.6;margin-bottom:25px}
+.btn{background:#2563eb;color:white;padding:16px 32px;border-radius:12px;text-decoration:none;font-weight:700;display:inline-block}
+.skills{margin-top:25px;font-weight:600;color:#334155}
+.right{flex:1;display:flex;justify-content:center}
+.right img{width:100%;max-width:380px;border-radius:30px;box-shadow:0 15px 30px rgba(0,0,0,0.15)}
+@media(max-width:768px){.card{flex-direction:column-reverse;padding:25px} h1{font-size:36px} .right img{max-width:280px}}
 </style>
 </head>
 <body>
 <div class="card">
 <div class="left">
-<p style="background:#dbeafe;display:inline-block;padding:6px 14px;border-radius:20px">Available for Opportunities</p>
-<h1>BODICHERLA VENKATA SAI SIVA KUMAR</h1>
-<h3>B.Tech 4th Year | Aspiring Web Developer</h3>
-<p>Passionate about building responsive web applications. Focused on React, JavaScript & Python.</p>
-<br>
-<a class="btn1" href="#">Download Resume</a>
-<br><br>
-<p>React | Python | Web Development</p>
+<div class="badge">Available for Opportunities</div>
+<h1>Bodicherla Venkata Sai Siva Kumar</h1>
+<div class="sub">B.Tech 4th Year | Aspiring Web Developer</div>
+<div class="desc">Passionate about building responsive web applications. Focused on React, JavaScript & Python.</div>
+<a href="#" class="btn">Download Resume</a>
+<div class="skills">React | Python | Web Development</div>
 </div>
 <div class="right">
-<img src="s.jpg" alt="Siva">
+<img src="s.jpg" alt="Siva Kumar">
 </div>
 </div>
 </body>
-  </html>
+</html>
